@@ -26,7 +26,7 @@ public class CalculatorApp {
          double zahl1 = scan.nextDouble();
          System.out.println("2. Zahl");
          double zahl2 = scan.nextDouble();
-         double result = c.addition();
+         double result = c.addition(zahl1, zahl2);
          System.out.println(result);
     }
 }

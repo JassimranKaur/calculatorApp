@@ -20,7 +20,7 @@ public class Calculator {
         this.b = b;
     }
     
-    public double addition(){
+    public double addition(double a, double b){
         double result = a+b;
         return result;
     }
